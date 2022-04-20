@@ -1,0 +1,21 @@
+{
+  "name": "linapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "keywords": [
+    "link",
+    "gen"
+  ],
+  "author": "Orlov Alexey",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.7",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.0"
+  }
+}
